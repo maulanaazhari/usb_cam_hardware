@@ -1,0 +1,10 @@
+<launch>
+
+  <group ns="usb_cam">
+    <!-- Controller starter that asks the manager to start -->
+    <node name="vpi_image_proc" pkg="vpi_image_proc" type="vpi_image_proc">
+        <param name="image_topic" value="packet"/>
+    </node>
+  </group>
+
+</launch>

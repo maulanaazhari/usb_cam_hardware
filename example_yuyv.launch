@@ -9,7 +9,7 @@
       <remap from="camera_info_controller/camera_info" to="camera_info"/>
       <remap from="packet_controller/image" to="packet"/>
       <remap from="yuyv_controller/image" to="image"/>
-      <param name="video_device" value="/dev/video1"/>
+      <param name="video_device" value="/dev/video4"/>
       <param name="image_width" value="640"/>
       <param name="image_height" value="480"/>
       <param name="pixel_format" value="yuyv"/>
